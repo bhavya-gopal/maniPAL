@@ -25,7 +25,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "ManiPAL"
+bot_name = "maniPAL"
 print("Let's chat! (type 'quit' to exit)")
 while True:
     sentence = input("You: ")
