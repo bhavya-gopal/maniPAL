@@ -1,0 +1,262 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "what's up",
+        "sup",
+        "helo",
+        "wyd",
+        "yoyo",
+        "hi how are you doing"
+      ],
+      "responses": ["Hello!", "Hi", "Hi, how can I help you?", "Hey!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "see you",
+        "ttyl",
+        "im gonna go",
+        "nice talking to you",
+        "bye bye"
+      ],
+      "responses": [
+        "Bye!",
+        "Talk to you later!",
+        "See you!",
+        "Talk to you soon!",
+        "It was nice chatting with you",
+        "Bye, let me know if you need anything else.",
+        "Until next time!"
+      ]
+    },
+
+    {
+      "tag": "italian",
+      "patterns": [
+        "continental food",
+        "contentinental",
+        "italian",
+        "what's a good italian restaurant?",
+        "where can I find good pasta",
+        "Where can I find good pizza",
+        "pizza place",
+        "pizza",
+        "restaurant recommendations",
+        "what are some great restaurants nearby",
+        "what are some good places to eat nearby"
+      ],
+      "responses": [
+        "Egg Factory is amazing!",
+        "I'd recommend Hadiqa, the spaghetti is wonderful!",
+        "Domino's is pretty good, I hear",
+        "ZZA bar is great for that",
+        "Pizza hut is pretty good but a little pricey",
+        "Eye of the tiger is great if you have a little money to spend",
+        "Cafe Story has some nice Italian."
+      ]
+    },
+    {
+      "tag": "south",
+      "patterns": [
+        "south indian",
+        "where can i get some south indian food?",
+        "want some dosa",
+        "dosa",
+        "idli vada",
+        "cheap food",
+        "best south indian food in manipal",
+        "craving south indian food",
+        "where can i get south indian"
+      ],
+      "responses": [
+        "Boda Sheera is cheap and has a variety of options!",
+        "Pai Tiffins is a classic.",
+        "MTR is great if you don't mind travelling to Udupi!",
+        "Kamath cafe! Just outside there's a great dosa place.",
+        "Madhura Veg has some good vegetarian options."
+      ]
+    },
+    {
+      "tag": "north",
+      "patterns": [
+        "north indian",
+        "naan",
+        "roti",
+        "paneer butter masala",
+        "im craving butter chicken",
+        "where can i get some north indian food",
+        "where can i get chicken biryani",
+        "good chicken",
+        "good indian places nearby",
+        "paneer"
+      ],
+      "responses": [
+        "Sai's is pretty good",
+        "Dollops is great!",
+        "Ginger Garlic has some nice options",
+        "Bacchus is great!",
+        "You should try Sai's.",
+        "There's Saiba nearby",
+        "Shubham biryani is good, I hear"
+      ]
+    },
+    {
+      "tag": "chinese",
+      "patterns": [
+        "noodles",
+        "craving noodles",
+        "where can i get some chinese food",
+        "east asian cuisine",
+        "i want noodles",
+        "what are some good chinese restaurants"
+      ],
+      "responses": [
+        "Kyoto has some great ramen, you can even eat with chopsticks!",
+        "Laughing Buddha is great!",
+        "The Quick Bite Food Truck outside Mandavi Emerald has some great noodles",
+        "Red Kitchen near the MIT campus if you're looking for cheap eats"
+      ]
+    },
+    {
+      "tag": "fastfood",
+      "patterns": [
+        "fast food",
+        "fast food chains",
+        "quick eats",
+        "are there any fast food places nearby?",
+        "any chains nearby?"
+      ],
+      "responses": [
+        "There's McDonald's",
+        "Domino's is close",
+        "Pizza hut at Canara Mall",
+        "There's KFC"
+      ]
+    },
+    {
+      "tag": "burger",
+      "patterns": [
+        "best burgers",
+        "where can I get burgers?",
+        "i want to have burgers",
+        "are there any burger places",
+        "greasy food"
+      ],
+      "responses": [
+        "You'll find the best burgers at Grub Monkeys (A killer iced tea, too)",
+        "There's always McDonald's",
+        "Grub Monkeys",
+        "McDonald's",
+        "McD"
+      ]
+    },
+    {
+      "tag": "health",
+      "patterns": [
+        "i want a sub",
+        "sandwiches",
+        "want some sandwiches",
+        "where can i get something healthy",
+        "healthy place to go",
+        "where can I get a good sandwich",
+        "where can I find a good sub"
+      ],
+      "responses": [
+        "Subway at the KMC Food Court",
+        "Subway!",
+        "Boda Sheera has some great sandwiches, super cheap too!"
+      ]
+    },
+    {
+      "tag": "desserts",
+      "patterns": [
+        "i want something sweet",
+        "chocolate",
+        "where can i get some dessert?",
+        "are there any dessert places nearby?",
+        "what's your favourite dessert place",
+        "i want some cake",
+        "where can i get waffles?",
+        "ice cream",
+        "Where can i get ice cream?"
+      ],
+      "responses": [
+        "Waffee House has the best waffles!",
+        "Belgian Waffle is pretty good!",
+        "Polar Bear has the best ice cream!",
+        "Ribbons and Balloons is a cute dessert place!"
+      ]
+    },
+    {
+      "tag": "manipal",
+      "patterns": [
+        "surpise me",
+        "manipal specials",
+        "hidden gems",
+        "special manipal foods",
+        "what's special in manipal"
+      ],
+      "responses": [
+        "Milk Maggi is a hidden Manipal treasure",
+        "4AM Samosa at Tiger Circle",
+        "Vikram's is great for breakfast!"
+      ]
+    },
+    {
+      "tag": "clubs",
+      "patterns": [
+        "where do people go to party?",
+        "parties",
+        "party",
+        "clubbing",
+        "bars",
+        "are there any bars",
+        "great places to drink",
+        "drinking",
+        "partying",
+        "where do people go to party?"
+      ],
+      "responses": [
+        "DeeTee",
+        "Froth on Top",
+        "Remix",
+        "Zeal",
+        "The Edge",
+        "Zero Degrees"
+      ]
+    },
+    {
+      "tag": "beaches",
+      "patterns": [ "are there beaches nearby?", "beaches", "I want to go to the beach", "sea", "sand", "beaches", "i love beaches", "manipal beaches", "what beaches are nearby?"
+      ],
+      "responses": [
+        "Hoode is beautiful and the bus drops you right in front of the beach.",
+        "Kapu is great, it even has a lighthouse!",
+        "Delta beach is nearby.",
+        "Malpe beach! There are some shacks with good seafood.",
+        "Marvanthe beach is great!",
+        "Mattu beach is great!"
+      ]
+    },
+    {
+      "tag": "explore",
+      "patterns": [ "i want to explore manipal", "i want to sightsee", "best places to near manipal", "where can i go if i want to explore manipal", "exploring", "sightseeing"],
+      "responses": [
+        "If you go to Kundadri early, you'll see some beautiful clouds.",
+        "Kudremukh is great if you love to trek!",
+        "There are some great beaches nearby!",
+        "Kudlu Falls is beautiful!",
+        "End point has a great view!",
+        "Manipal lake is quite serene.",
+        "Arbi falls is great!",
+        "You can see a beautiful sunset from the railway bridge."
+      ]
+    }
+  ]
+}
